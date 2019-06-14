@@ -1,0 +1,37 @@
+/*
+Theme Name: Lucas Gomes Palmieri Portfolio (Version: 0.1)
+Theme URI: www.lucasgomespalmieri.tk
+Author: Lucas Gomes Palmieri
+Author URI: www.lucasgomespalmieri.tk
+Description: My portfolio Website wordpress theme.
+Version: 0.1
+Tags: Lucas, Gomes, Palmieri, Lucas Gomes Palmieri, Portfolio, Website, Wordpress, Wordpress Theme, Portfolio Website, Portfolio Website Theme, Lucas Gomes Palmieri Portfolio Website Theme
+*/
+
+/* START FONTS */
+/* 1- Lobster Regular */
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+.font-lobster-regular{
+  font-family: 'Lobster', cursive;
+}
+/* 2-Share Tech Mono Regular */
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap');
+.font-sharetech-mono{
+  font-family: 'Share Tech Mono', monospace;
+}
+/* END FONTS */
+
+body{
+  background-color: #252627;
+}
+
+/* NAVBAR */
+.navbar-settings{
+  background-color: #181818;
+  color: #9a9a9a;
+  height: 70px;
+  line-height: 70px;
+}
+.navbar-title-settings{
+  font-size: 36px;
+}
