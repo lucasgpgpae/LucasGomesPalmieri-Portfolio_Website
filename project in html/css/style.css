@@ -147,3 +147,41 @@ html, body{
   height: auto;
 }
 /* END ABOUT ME PAGE */
+
+/* START PROJECTS PAGE */
+.projects-page-title-div{
+  margin-top: 80px;
+  margin-bottom: 25px;
+}
+.projects-row{
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.project-post-link:hover{
+  text-decoration: none;
+}
+.project-post{
+  margin-bottom: 80px;
+}
+.project-img{
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #fff;
+}
+.project-title{
+  color: #006c7f;
+  font-family: 'Share Tech Mono', monospace;
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 0;
+}
+.project-title:hover{
+  color: #006c7f;
+}
+.project-summary{
+  color: #fff;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 16px;
+  text-indent: 40px;
+}
+/* END PROJECTS PAGE */
