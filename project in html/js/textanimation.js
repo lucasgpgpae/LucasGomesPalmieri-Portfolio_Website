@@ -2,7 +2,7 @@ $(function(){
 
   var animacao = "animated rubberBand";
   var fimAnimacao = "webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend";
-  var wordclass = "thep animationreceiver";
+  var wordclass = "textanimation-rubberband";
 
   $(document).on('mouseover', 'div', function(e) {
     if($(e.target).attr('class') == wordclass){

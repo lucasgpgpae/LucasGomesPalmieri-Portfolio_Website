@@ -24,13 +24,18 @@ Tags: Lucas, Gomes, Palmieri, Lucas Gomes Palmieri, Portfolio, Website, Wordpres
 /*START OTHERS*/
 body{
   background: #252627;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 html, body{
   height: 100%;
   margin: 0px;
+}
+.textanimation-rubberband{
+  color: #9a9a9a;
+  display: inline-block;
+  padding-right: 2px;
+  font-size: 1.5vw;
+  text-align: justify;
+  font-family: 'Lobster', cursive;
 }
 /*END OTHERS*/
 
@@ -38,14 +43,7 @@ html, body{
 .navbar-settings{
   background-color: #181818;
   height: 70px;
-  line-height: 70px;
   padding-right: 0;
-}
-.navbar-text-color{
-  color: #9a9a9a;
-}
-.navbar-text-color:hover{
-  color: #9a9a9a;
 }
 .navbar-menu-itens{
   color: #9a9a9a;
@@ -56,8 +54,14 @@ html, body{
 .navbar-menu-itens:hover{
   color: #006c7f;
 }
+.navbar-menu-space{
+  height: 70px;
+  line-height: 65px;
+}
 .navbar-icons-space{
   background-color: #002c34;
+  height: 77px;
+  line-height: 65px;
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 2px;
@@ -69,7 +73,7 @@ html, body{
   margin-right: 5px;
 }
 .navbar-separation-right{
-  height: 80px;
+  height: 78px;
   padding-top: 3px;
   background-color: #181818;
   list-style-position:inside;
@@ -112,3 +116,34 @@ html, body{
   font-size: 8vw;
 }
 /*END HOME PAGE*/
+
+
+/* START ABOUT ME PAGE */
+.aboutme-row{
+  margin: 0 15px 0 15px;
+  padding-top: 80px;
+}
+.page-title{
+  font-family: 'Share Tech Mono', monospace;
+  color: #006c7f;
+  text-align: center;
+  font-size: 64px;
+  font-weight: bold;
+  margin-bottom: 0;
+  }
+.page-content-div{
+  padding: 0 35px 0 35px;
+}
+#start1, #start2, #start3, #start4, #a3, #a4, #a5, #b6, #b7, #b8, #b9, #b10, #c8, #d5{
+  color: #006c7f;
+}
+.aboutme-image-div{
+  width: 100%;
+  height: 600px;
+  padding: 25px 12% 0 12%;
+}
+.aboutme-img{
+  width: 100%;
+  height: auto;
+}
+/* END ABOUT ME PAGE */
