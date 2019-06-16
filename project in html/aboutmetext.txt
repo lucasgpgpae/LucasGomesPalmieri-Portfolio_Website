@@ -1,7 +1,0 @@
-  My name is Lucas Gomes Palmieri, i always loved videogames since I was 6Years-old and conected it with web developing when I discovered games online in the web.
-
-	Finished Tecnic High School on Cidade el Shadai Centro Educacional in 2017, there I learned about Programming Logic, an introdution to Front-end developing and DataBase, and Operational Sistems.
-
-  Also, I did some extracurricular courses on www.ev.org.com, the courses that I did was Personal Organization, Digital Photography, Web Learning, Basic HTML, Advanced HTML, Introduction to Javascript, Innovating with CSS, Requirements Engineering, Software Development Process, Project Management, Business Strategy, Introduction to Computer Networking, Microsoft Windows XP, and Microsoft Windows 7.
-
-  Studying Digital Games in FIAP College, Learned Unity, Unreal, C#, HTML, CSS, Bootstrap, User Interface, Game Design, 3D Modeling, Scripting, Digital Marketing, Interaction Medias, Game Engines, Level Design, Sound Design, Virtual Reality and Augmented Reality, Kotlin(Android), Swift(IOS).

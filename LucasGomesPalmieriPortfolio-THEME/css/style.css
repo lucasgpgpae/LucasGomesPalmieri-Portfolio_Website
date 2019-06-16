@@ -1,0 +1,346 @@
+/*
+Theme Name: Lucas Gomes Palmieri Portfolio (Version: 0.1)
+Theme URI: www.lucasgomespalmieri.tk
+Author: Lucas Gomes Palmieri
+Author URI: www.lucasgomespalmieri.tk
+Description: My portfolio Website wordpress theme.
+Version: 0.1
+Tags: Lucas, Gomes, Palmieri, Lucas Gomes Palmieri, Portfolio, Website, Wordpress, Wordpress Theme, Portfolio Website, Portfolio Website Theme, Lucas Gomes Palmieri Portfolio Website Theme
+*/
+
+/* START FONTS */
+/* 1- Lobster Regular */
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+.font-lobster-regular{
+  font-family: 'Lobster', cursive;
+}
+/* 2-Share Tech Mono Regular */
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap');
+.font-sharetech-mono{
+  font-family: 'Share Tech Mono', monospace;
+}
+/* END FONTS */
+
+/*START OTHERS*/
+body{
+  background: #252627;
+}
+html, body{
+  height: 100%;
+  margin: 0px;
+}
+.textanimation-rubberband{
+  color: #9a9a9a;
+  display: inline-block;
+  padding-right: 2px;
+  font-size: 1.5vw;
+  text-align: justify;
+  font-family: 'Lobster', cursive;
+}
+@media(max-width:1000px){
+  .textanimation-rubberband{
+    font-size: 20px;
+  }
+}
+/*END OTHERS*/
+
+/* START NAVBAR */
+.navbar-settings{
+  background-color: #181818;
+  height: 70px;
+  padding-right: 0;
+}
+.navbar-menu-itens{
+  color: #9a9a9a;
+  font-size: 26px;
+  font-family: 'Share Tech Mono', monospace;
+  margin: 0 10px 0 10px;
+}
+.navbar-menu-itens:hover{
+  color: #006c7f;
+}
+.navbar-menu-space{
+  height: 70px;
+  line-height: 65px;
+}
+.navbar-icons-space{
+  background-color: #002c34;
+  height: 77px;
+  line-height: 65px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 2px;
+}
+.navbar-icons{
+  padding-left: 0;
+  padding-right: 0;
+  margin-left: 0;
+  margin-right: 5px;
+}
+.navbar-separation-right{
+  height: 78px;
+  padding-top: 3px;
+  background-color: #181818;
+  list-style-position:inside;
+  border-right: 1px solid #9a9a9a;
+}
+.navbar-title-settings{
+  font-size: 36px;
+  color: #9a9a9a;
+}
+.navbar-button{
+  margin-right: 20px;
+}
+/*END NAVBAR*/
+
+/*START HOME PAGE*/
+.home-page-div{
+  background-image: url("../imgs/background-home.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin: 0 auto;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center
+}
+.div-center-content{
+  text-align: center;
+  line-height: 100%;
+}
+.home-text-normal{
+  font-family: 'Share Tech Mono', monospace;
+  color: #9a9a9a;
+  font-size: 2vw;
+}
+.home-title{
+  font-family: 'Lobster', cursive;
+  color: #006c7f;
+  font-size: 8vw;
+}
+/*END HOME PAGE*/
+
+
+/* START ABOUT ME PAGE */
+.aboutme-row{
+  margin: 0 15px 0 15px;
+  padding-top: 80px;
+}
+.page-title{
+  font-family: 'Share Tech Mono', monospace;
+  color: #006c7f;
+  text-align: center;
+  font-size: 64px;
+  font-weight: bold;
+  margin-bottom: 0;
+  }
+.page-content-div{
+  padding: 0 35px 0 35px;
+}
+@media(max-width:1000px){
+  .page-content-div{
+    padding: 0;
+  }
+}
+#start1, #start2, #start3, #start4, #a3, #a4, #a5, #b6, #b7, #b8, #b9, #b10, #c8, #d5{
+  color: #006c7f;
+}
+.aboutme-image-div{
+  width: 100%;
+  min-height: 830px;
+  padding: 25px 12% 0 12%;
+  background: url("../imgs/aboutmeimg.png");
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: top;
+}
+.aboutme-img{
+  width: 100%;
+  height: auto;
+}
+/* END ABOUT ME PAGE */
+
+/* START PROJECTS PAGE */
+.projects-page-title-div{
+  margin-top: 80px;
+  margin-bottom: 25px;
+}
+.projects-row{
+  margin-left: 25px;
+  margin-right: 25px;
+}
+.project-post-link:hover{
+  text-decoration: none;
+}
+.project-post{
+  margin-bottom: 80px;
+}
+.project-img{
+  width: 100%;
+  height: auto;
+  border-bottom: 2px solid #fff;
+}
+.project-title{
+  color: #006c7f;
+  font-family: 'Share Tech Mono', monospace;
+  font-weight: bold;
+  font-size: 32px;
+  margin-bottom: 0;
+}
+.project-title:hover{
+  color: #006c7f;
+}
+.project-summary{
+  color: #fff;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 16px;
+  text-indent: 40px;
+}
+/* END PROJECTS PAGE */
+
+/* THE POST PAGE */
+.project-page-content-div{
+  border: 1px solid #006c7f;
+  margin-right: 5%;
+  margin-left: 5%;
+  background-color: #37393b;
+  margin-bottom: 50px;
+}
+
+@media(min-width:1000px){
+  .project-page-content-div{
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+}
+.project-page-content-text{
+  color: #9a9a9a;
+  font-family: 'Share Tech Mono', monospace;
+  text-indent: 40px;
+  font-size: 1.7vw;
+  text-align: justify;
+}
+@media(max-width:1000px){
+  .project-page-content-text{
+    font-size: 24px;
+  }
+}
+.project-page-content-text-div{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+.project-page-content-image-div{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+/* END THE POST PAGE */
+
+/* START CONTACT PAGE*/
+.contactrow{
+  padding-top: 80px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.form-row{
+  margin-bottom: 7px;
+}
+.contact-form-div{
+  padding-bottom: 5%;
+}
+.contact-title{
+  font-family: 'Share Tech Mono', monospace;
+  color: #006c7f;
+  text-align: center;
+  font-size: 64px;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+.form-col{
+  padding: 5px 5px 0 5px;
+}
+.form-contact{
+  margin-top: 25px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+@media(min-width:1000px){
+  .form-contact{
+    margin-right: 16%;
+    margin-left: 16%;
+  }
+}
+.form-text-field{
+  font-family: 'Lobster', cursive;
+  background-color: #37393b;
+  color: #9a9a9a;
+  font-size: 24px;
+  border: 1px solid #37393b;
+  border-bottom: 3px solid #37393b;
+  border-radius: 0;
+  transition: none;
+}
+.form-text-field::placeholder{
+  color: #006c7f;
+}
+.form-text-field:focus{
+  background-color:#37393b;
+  border: 1px solid #37393b;
+  color: #9a9a9a;
+  border-bottom: 3px solid #006c7f;
+  outline: none;
+  box-shadow: none;
+}
+.contact-img-div{
+  background: url("../imgs/contactimg.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 500px;
+}
+.form-button-div{
+  text-align: right;
+  max-width: 100px;
+}
+.form-button{
+  padding: 2px 5px 2px 5px;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 22px;
+  color: #006c7f;
+  border-color: #006c7f;
+}
+.form-button:hover{
+  background-color: #006c7f;
+  border-color: #006c7f;
+}
+.contact-info{
+  padding: 0;
+  margin-top: 0;
+}
+.contact-sent{
+  color: #00f00f;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 20px;
+  font-weight: bold;
+}
+.contact-not-sent{
+  padding: 0;
+  margin: 0;
+  color: #ff0000;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 20px;
+  font-weight: bold;
+}
+.contact-error-info{
+  padding: 0;
+  margin: 0;
+  color: #fff;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 10px;
+}
+/* END CONTACT PAGE */

@@ -1,20 +1,36 @@
+<!--
+Lucas Gomes Palmieri Website
+Desenvolvedor: Lucas Gomes Palmieri
+-->
+
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="pt-br" dir="ltr">
   <head>
+
+    <!-- WORDPRESS -->
     <meta charset="utf-8">
-    <title>Project Portfolio - Navbar</title>
+    <title> <?php bloginfo('name'); ?></title>
+    <meta name="generator" content="WordPress <?php bloginfo('version'); ?>" />
+    <meta http-equiv="content-type" content="<?php bloginfo('html_type'); ?>; <?php bloginfo('charset'); ?>" />
+    <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" media="all" type="text/css" />
+    <link rel="alternate" type="application/rss+xml" title="RSS 2.0" href="<?php bloginfo('rss2_url'); ?>" />
+    <link rel="alternate" type="text/xml" title="RSS .92" href="<?php bloginfo('rss_url'); ?>" />
+    <link rel="alternate" type="application/atom+xml" title="Atom 0.3" href="<?php bloginfo('atom_url'); ?>" />
+    <?php wp_head(); ?>
 
     <!-- CSS Documents -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/animate.css">
     <!-- End CSS Documents -->
-
     <!-- JavaScript Documents -->
     <script src="js/jquery.js"></script>
     <script src="js/textanimation.js"></script>
     <!-- End JavaScript Documents -->
+    <!-- http://www.lucasgomespalmieri.tk/wp-content/themes/LucasGomesPalmieriPortfolio-THEME/css/style.css -->
+
   </head>
+
   <body>
     <!-- ----------------------------------------------------------- -->
     <!-- -----------------------START NAVBAR------------------------ -->
@@ -30,16 +46,16 @@
       <div class="collapse navbar-collapse navbar-menu-space" id="navbarSupportedContent">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item navbar-separation-right">
-            <a class="nav-link navbar-menu-itens font-sharetech-mono" href="home.html">HOME</a>
+            <a class="nav-link navbar-menu-itens font-sharetech-mono" href="/">HOME</a>
           </li>
           <li class="nav-item navbar-separation-right">
-            <a class="nav-link navbar-menu-itens font-sharetech-mono" href="aboutme.html">ABOUT ME</a>
+            <a class="nav-link navbar-menu-itens font-sharetech-mono" href="/aboutme">ABOUT ME</a>
           </li>
           <li class="nav-item navbar-separation-right">
-            <a class="nav-link navbar-menu-itens font-sharetech-mono" href="index.html">MY PROJECTS</a>
+            <a class="nav-link navbar-menu-itens font-sharetech-mono" href="/myprojects">MY PROJECTS</a>
           </li>
           <li class="nav-item navbar-separation-right" style="border:0;">
-            <a class="nav-link navbar-menu-itens font-sharetech-mono" href="#">CONTACT</a>
+            <a class="nav-link navbar-menu-itens font-sharetech-mono" href="/contact">CONTACT</a>
           </li>
         </ul>
 
@@ -61,12 +77,3 @@
     </nav>
     <!-- ------------------------END NAVBAR------------------------- -->
     <!-- ----------------------------------------------------------- -->
-
-
-
-    <!-- JavaScript Bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-  </body>
-</html>
