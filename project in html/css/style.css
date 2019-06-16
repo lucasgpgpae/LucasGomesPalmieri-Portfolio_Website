@@ -185,3 +185,43 @@ html, body{
   text-indent: 40px;
 }
 /* END PROJECTS PAGE */
+
+/* THE POST PAGE */
+.project-page-content-div{
+  border: 1px solid #006c7f;
+  margin-right: 5%;
+  margin-left: 5%;
+  background-color: #37393b;
+  margin-bottom: 50px;
+}
+
+@media(min-width:1000px){
+  .project-page-content-div{
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+}
+.project-page-content-text{
+  color: #9a9a9a;
+  font-family: 'Share Tech Mono', monospace;
+  text-indent: 40px;
+  font-size: 1.7vw;
+  text-align: justify;
+}
+@media(max-width:1000px){
+  .project-page-content-text{
+    font-size: 24px;
+  }
+}
+.project-page-content-text-div{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+}
+.project-page-content-image-div{
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+}
+
+/* END THE POST PAGE */
