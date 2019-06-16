@@ -16,13 +16,13 @@
       <h2 class="contact-title">CONTACT</h2>
     </div>
     <!-- START FORM -->
-    <form class="form-contact" action="enviaremail.php" method="post">
+    <form class="form-contact" action="/wp-content/themes/LucasGomesPalmieriPortfolio-THEME/enviaremail.php" method="post">
       <div class="form-group row form-row">
         <div class="col form-col">
-          <input type="email" name="name" class="form-control form-text-field" placeholder="Name">
+          <input type="text" name="name" class="form-control form-text-field" placeholder="Name">
         </div>
         <div class="col form-col">
-          <input type="text" name="email" class="form-control form-text-field" placeholder="Email">
+          <input type="email" name="email" class="form-control form-text-field" placeholder="Email">
         </div>
       </div>
 

@@ -9,13 +9,13 @@ Tags: Lucas, Gomes, Palmieri, Lucas Gomes Palmieri, Portfolio, Website, Wordpres
 */
 
 /* START FONTS */
-/* 1- Lobster Regular */
 @import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap');
+/* 1- Lobster Regular */
 .font-lobster-regular{
   font-family: 'Lobster', cursive;
 }
 /* 2-Share Tech Mono Regular */
-@import url('https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap');
 .font-sharetech-mono{
   font-family: 'Share Tech Mono', monospace;
 }
@@ -95,7 +95,7 @@ html, body{
 
 /*START HOME PAGE*/
 .home-page-div{
-  background-image: url("../imgs/background-home.png");
+  background-image: url("/wp-content/themes/LucasGomesPalmieriPortfolio-THEME/imgs/background-home.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   margin: 0 auto;
@@ -151,7 +151,7 @@ html, body{
   width: 100%;
   min-height: 830px;
   padding: 25px 12% 0 12%;
-  background: url("../imgs/aboutmeimg.png");
+  background: url("/wp-content/themes/LucasGomesPalmieriPortfolio-THEME/imgs/aboutmeimg.png");
   background-size: 75%;
   background-repeat: no-repeat;
   background-position: top;
@@ -297,7 +297,7 @@ html, body{
   box-shadow: none;
 }
 .contact-img-div{
-  background: url("../imgs/contactimg.png");
+  background: url("/wp-content/themes/LucasGomesPalmieriPortfolio-THEME/imgs/contactimg.png");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
