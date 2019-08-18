@@ -233,7 +233,6 @@ html, body{
 .project-page-content-text{
   color: #9a9a9a;
   font-family: 'Share Tech Mono', monospace;
-  text-indent: 40px;
   font-size: 1.7vw;
   text-align: justify;
 }
@@ -247,7 +246,6 @@ html, body{
   padding-right: 10px;
   color: #9a9a9a;
   font-family: 'Share Tech Mono', monospace;
-  text-indent: 40px;
   font-size: 1.7vw;
   text-align: justify;
 }
