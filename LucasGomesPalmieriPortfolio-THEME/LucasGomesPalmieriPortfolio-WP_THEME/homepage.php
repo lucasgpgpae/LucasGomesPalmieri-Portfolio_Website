@@ -5,7 +5,11 @@
 <?php get_header(); ?>
 
 <!-- INICIO PAGINA ***************************************************** -->
-
+<style type="text/css">
+    body {
+        overflow: hidden;
+    }
+</style>
 
 <div class="home-page-div">
 
