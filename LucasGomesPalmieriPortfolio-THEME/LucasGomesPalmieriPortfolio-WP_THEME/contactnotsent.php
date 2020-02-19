@@ -12,11 +12,11 @@
 
 <div class="row contactrow">
   <div class="col-12 col-sm-12 col-md-6 col-lg-6 contact-form-div">
-    <div class="contact-title-div">
+    <div class="contact-title-div" onselectstart="return false">
       <h2 class="contact-title">CONTACT</h2>
     </div>
     <!-- START FORM -->
-    <form class="form-contact" action="../enviaremail.php" method="post">
+    <form class="form-contact" action="/enviaremail.php" method="post">
       <div class="form-group row form-row">
         <div class="col form-col">
           <input type="text" name="name" class="form-control form-text-field" placeholder="Name">

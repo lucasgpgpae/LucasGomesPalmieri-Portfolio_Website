@@ -5,7 +5,7 @@
 <!-- ----------------------------------------------------------- -->
 <!-- --------------------START THE POST PAGE-------------------- -->
   <?php if(have_posts()) : while (have_posts()) : the_post(); ?>
-  <div class="projects-page-title-div" style="margin-top: 100px; margin-bottom: 15px;">
+  <div class="projects-page-title-div" style="margin-top: 100px; margin-bottom: 15px;" onselectstart="return false">
     <h2 class="page-title"><?php the_title(); ?></h2>
   </div>
 

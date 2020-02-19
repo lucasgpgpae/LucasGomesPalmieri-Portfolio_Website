@@ -5,7 +5,7 @@
 
 
 
-<div class="projects-page-title-div">
+<div class="projects-page-title-div" onselectstart="return false">
   <h2 class="page-title" style="font-size:100px;">PROJECTS</h2>
 </div>
 

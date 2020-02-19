@@ -10,7 +10,7 @@
 <!-- ----------------------------------------------------------- -->
 <!-- ---------------------START ABOUT ME PAGE------------------- -->
 
-<div class="row aboutme-row">
+<div class="row aboutme-row" onselectstart="return false">
   <div class="col-12 col-sm-12 col-md-6">
     <div class="page-title-div">
       <h2 class="page-title">ABOUT ME</h2>

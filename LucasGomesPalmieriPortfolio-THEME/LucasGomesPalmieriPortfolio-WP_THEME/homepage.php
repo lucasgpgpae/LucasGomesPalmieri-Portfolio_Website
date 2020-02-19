@@ -11,7 +11,7 @@
     }
 </style>
 
-<div class="home-page-div">
+<div class="home-page-div" onselectstart="return false">
 
   <div class="align-middle">
     <div class="div-center-content">

@@ -34,7 +34,7 @@ Desenvolvedor: Lucas Gomes Palmieri
   <body>
     <!-- ----------------------------------------------------------- -->
     <!-- -----------------------START NAVBAR------------------------ -->
-    <nav class="navbar navbar-settings navbar-expand-xl fixed-top pt-0">
+    <nav class="navbar navbar-settings navbar-expand-xl fixed-top pt-0" onselectstart="return false">
       <a class="navbar-brand navbar-title-settings font-lobster-regular" href="#" style="color: #9a9a9a;">Lucas Gomes Palmieri</a>
 
       <nav class="navbar-dark" style="">
@@ -55,7 +55,7 @@ Desenvolvedor: Lucas Gomes Palmieri
             <a class="nav-link navbar-menu-itens font-sharetech-mono" href="/myprojects">MY PROJECTS</a>
           </li>
           <li class="nav-item navbar-separation-right" style="border:0;">
-            <a class="nav-link navbar-menu-itens font-sharetech-mono" href="/contact.html">CONTACT</a>
+            <a class="nav-link navbar-menu-itens font-sharetech-mono" href="/contact">CONTACT</a>
           </li>
         </ul>
 
