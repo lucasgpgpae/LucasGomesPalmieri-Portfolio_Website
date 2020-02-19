@@ -16,7 +16,7 @@
       <h2 class="contact-title">CONTACT</h2>
     </div>
     <!-- START FORM -->
-    <form class="form-contact" action="/wp-content/themes/LucasGomesPalmieriPortfolio-THEME/enviaremail.php" method="post">
+    <form class="form-contact" action="../enviaremail.php" method="post">
       <div class="form-group row form-row">
         <div class="col form-col">
           <input type="text" name="name" class="form-control form-text-field" placeholder="Name">
@@ -41,7 +41,7 @@
       <div class="form-group row form-row">
         <div class="col form-col contact-info">
           <p class="contact-not-sent">Error: Contact Not Sent!</p>
-          <p class="contact-error-info">Try again later or send the message to: lucasgpgpae@gmail.com</p>
+          <p class="contact-error-info">Try again later or send the message to: lucasgomespalmieri@hotmail.com</p>
         </div>
         <div class="col form-col form-button-div">
           <button type="submit" class="btn btn-outline-info form-button">Submit</button>

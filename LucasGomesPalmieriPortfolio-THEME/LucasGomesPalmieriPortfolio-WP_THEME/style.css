@@ -22,6 +22,10 @@ Tags: Lucas, Gomes, Palmieri, Lucas Gomes Palmieri, Portfolio, Website, Wordpres
 /* END FONTS */
 
 /*START OTHERS*/
+*{
+	cursor: url(/wp-content/themes/LucasGomesPalmieriPortfolio-WP_THEME/imgs/cursor.png),auto;
+}
+
 body{
   background: #252627;
 }

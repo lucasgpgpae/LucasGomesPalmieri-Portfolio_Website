@@ -6,7 +6,7 @@
   $message = addslashes($_POST['message']);
 
 
-  $to = "lucasgomespalmieri@gmail.com";
+  $to = "lucasgomespalmieri@hotmail.com";
   $body = "Nome: ".$name."\r\n".
           "Email: ".$email."\r\n".
           "Mensagem: ".$message;
@@ -15,10 +15,10 @@
             "X=Mailer:PHP/".phpversion();
 
   if(mail($to,$subject,$body,$header)){
-    header("Location: https://www.lucasgomespalmieri.com.br/contactsent.html");
+    header("Location: https://www.lucasgomespalmieri.com.br/contactsent/");
   }
   else{
-    header("Location: https://www.lucasgomespalmieri.com.br/contactnotsent.html");
+    header("Location: https://www.lucasgomespalmieri.com.br/contactnotsent/");
   }
 
  ?>
