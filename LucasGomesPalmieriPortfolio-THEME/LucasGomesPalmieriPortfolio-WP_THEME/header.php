@@ -20,12 +20,12 @@ Desenvolvedor: Lucas Gomes Palmieri
 
     <!-- CSS Documents -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="/wp-content/themes/LucasGomesPalmieriPortfolio-THEME/style.css">
-    <link rel="stylesheet" href="/wp-content/themes/LucasGomesPalmieriPortfolio-THEME/css/animate.css">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/style.css">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/animate.css">
     <!-- End CSS Documents -->
     <!-- JavaScript Documents -->
-    <script src="/wp-content/themes/LucasGomesPalmieriPortfolio-THEME/js/jquery.js"></script>
-    <script src="/wp-content/themes/LucasGomesPalmieriPortfolio-THEME/js/textanimation.js"></script>
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/jquery.js"></script>
+    <script src="<?php echo get_stylesheet_directory_uri(); ?>/js/textanimation.js"></script>
     <!-- End JavaScript Documents -->
     <!-- http://www.lucasgomespalmieri.tk/wp-content/themes/LucasGomesPalmieriPortfolio-THEME/css/style.css -->
 
@@ -60,17 +60,21 @@ Desenvolvedor: Lucas Gomes Palmieri
         </ul>
 
         <div class="navbar-icons-space">
-          <a class="navbar-brand navbar-icons" href="https://www.linkedin.com/in/lucas-gomes-palmieri-727226188/" target="_blank">
-            <img src="/wp-content/themes/LucasGomesPalmieriPortfolio-THEME/imgs/icons/linkedin-icon.png" width="35" height="33" alt="">
+          <!-- https://www.linkedin.com/in/lucas-gomes-palmieri-727226188/ -->
+          <a class="navbar-brand navbar-icons" href="/linkedin" target="_blank">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/imgs/icons/linkedin-icon.png" width="35" height="33" alt="">
           </a>
-          <a class="navbar-brand navbar-icons" href="https://steamcommunity.com/id/lucasgp/" target="_blank">
-            <img src="/wp-content/themes/LucasGomesPalmieriPortfolio-THEME/imgs/icons/steam-icon.png" width="35" height="33" alt="">
+          <!-- https://steamcommunity.com/id/lucasgp/ -->
+          <a class="navbar-brand navbar-icons" href="/steam" target="_blank">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/imgs/icons/steam-icon.png" width="35" height="33" alt="">
           </a>
-          <a class="navbar-brand navbar-icons" href="https://lucasgp.itch.io/" target="_blank">
-            <img src="/wp-content/themes/LucasGomesPalmieriPortfolio-THEME/imgs/icons/itchio-icon.png" width="35" height="33" alt="">
+          <!-- https://lucasgp.itch.io/ -->
+          <a class="navbar-brand navbar-icons" href="/itchio" target="_blank">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/imgs/icons/itchio-icon.png" width="35" height="33" alt="">
           </a>
-          <a class="navbar-brand navbar-icons" href="https://github.com/lucasgpgpae" target="_blank">
-            <img src="/wp-content/themes/LucasGomesPalmieriPortfolio-THEME/imgs/icons/github-icon.png" width="35" height="33" alt="">
+          <!-- https://github.com/lucasgpgpae -->
+          <a class="navbar-brand navbar-icons" href="/github" target="_blank">
+            <img src="<?php echo get_stylesheet_directory_uri(); ?>/imgs/icons/github-icon.png" width="35" height="33" alt="">
           </a>
         </div>
       </div>

@@ -95,7 +95,7 @@ html, body{
 
 /*START HOME PAGE*/
 .home-page-div{
-  background-image: url("/wp-content/themes/LucasGomesPalmieriPortfolio-THEME/imgs/background-home.png");
+  background-image: url("/wp-content/themes/LucasGomesPalmieriPortfolio-WP_THEME/imgs/background-home.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   margin: 0 auto;
@@ -151,7 +151,7 @@ html, body{
   width: 100%;
   min-height: 830px;
   padding: 25px 12% 0 12%;
-  background: url("/wp-content/themes/LucasGomesPalmieriPortfolio-THEME/imgs/aboutmeimg.png");
+  background: url("/wp-content/themes/LucasGomesPalmieriPortfolio-WP_THEME/imgs/aboutmeimg.png");
   background-size: 75%;
   background-repeat: no-repeat;
   background-position: top;
@@ -314,7 +314,7 @@ html, body{
   box-shadow: none;
 }
 .contact-img-div{
-  background: url("/wp-content/themes/LucasGomesPalmieriPortfolio-THEME/imgs/contactimg.png");
+  background: url("/wp-content/themes/LucasGomesPalmieriPortfolio-WP_THEME/imgs/contactimg.png");
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
