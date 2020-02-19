@@ -9,16 +9,24 @@
   $to = "lucasgomespalmieri@hotmail.com";
   $body = "Nome: ".$name."\r\n".
           "Email: ".$email."\r\n".
+          "Assunto: ".$subject."\r\n".
           "Mensagem: ".$message;
   $header = "From: contact@lucasgomespalmieri.com.br"."\r\n".
             "Reply-To:".$email."\r\n".
             "X=Mailer:PHP/".phpversion();
 
-  if(mail($to,$subject,$body,$header)){
-    header("Location: https://www.lucasgomespalmieri.com.br/contactsent/");
+  if($name == null || $email == null || $message == null || $subject == null){
+    header("Location: https://www.lucasgomespalmieri.com.br/contactmissinginformation/");
   }
   else{
-    header("Location: https://www.lucasgomespalmieri.com.br/contactnotsent/");
+
+    if(mail($to,$subject,$body,$header)){
+      header("Location: https://www.lucasgomespalmieri.com.br/contactsent/");
+    }
+    else{
+      header("Location: https://www.lucasgomespalmieri.com.br/contactnotsent/");
+    }
+
   }
 
  ?>
